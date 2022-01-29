@@ -15,6 +15,3 @@ def process_excel(df):
     df2['Order Year'] = df2.index
     df['Order Value'] = abs(df['Order Value'])
     show_graph(df,df2)
-df = pd.read_excel(r'D:\Projects\AmazonOrderTracker\Amazon.xlsx')
-df2=df
-process_excel(df)
